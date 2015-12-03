@@ -1,0 +1,6 @@
+Before running the server, please do the following:
+
+sudo apt-get install ssh
+ssh-keygen //Leave everything blank
+ssh-copy-id Amrullah@goog.ddns.net
+
