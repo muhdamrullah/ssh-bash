@@ -1,6 +1,6 @@
 #!/bin/bash
 createTunnel() {
-  /usr/bin/ssh -N -R 22222:localhost:22 Amrullah@goog.ddns.net
+  /usr/bin/ssh -i "/root/raspi.pem" -N -R 22223:localhost:22 ubuntu@52.77.229.57
   if [[ $? -eq 0 ]]; then
     echo Tunnel to jumpbox created successfully
   else
