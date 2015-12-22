@@ -1,7 +1,11 @@
 # ssh-bash
 
 Step (1): Retrieve the "raspi.pem" file from the Protected Folders
-Step (2): sudo nano /etc/ssh/ssh_config 
+Step (2): 
+
+```bash
+$ sudo nano /etc/ssh/ssh_config 
+```
           Add in the following:
               ServerAliveInterval 30
               ServerAliveCountMax 4
