@@ -1,6 +1,7 @@
 # ssh-bash
 
 Step (1): Retrieve the "raspi.pem" file from the Protected Folders
+
 Step (2): 
 
 ```bash
