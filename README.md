@@ -5,7 +5,7 @@ Step (2):
 
 ```bash
 $ sudo nano /etc/ssh/ssh_config 
-```
+
           Add in the following:
               ServerAliveInterval 30
               ServerAliveCountMax 4
