@@ -19,7 +19,7 @@ $ sudo nano /etc/ssh/sshd_config
 ```
           Add in the following:
               ClientAliveInterval 30
-              ServerAliveCountMax 4
+              ClientAliveCountMax 4
 ```
 Step (4): 
 ```
